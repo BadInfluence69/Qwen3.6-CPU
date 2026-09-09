@@ -58,12 +58,12 @@ DEFAULTS = {
         "code, show only the parts that change unless asked for the whole file."
     ),
     "web_enabled": True,
-    "web_results": 4,
+    "web_results": 10,
     "web_chars": 2500,
-    "temperature": 0.6,
+    "temperature": 0.2,
     "top_p": 0.95,
     "top_k": 20,
-    "max_tokens": 4096,
+    "max_tokens": 1000,
 }
 
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
